@@ -3,6 +3,9 @@ name: CI
 # Controls when the workflow will run
 on:
   # Allows you to run this workflow manually from the Actions tab
+  # repository_dispatch allows you too rest api requst triggers workflow
+  # schedule  Workflow is scheduled
+  # workflow_call Can be caller by other workflow
   workflow_dispatch:
 jobs:
   first-job:
